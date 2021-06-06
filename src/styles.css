@@ -1,0 +1,32 @@
+/************** Video Player **************/
+video-local {
+  max-width: 100%;
+  width: 320px;
+  /* filter: blur(4px) invert(1) opacity(0.5) hue-rotate(180deg) saturate(200%); */
+}
+video-remote {
+  max-width: 100%;
+  width: 640px;
+  /* filter: blur(4px) invert(1) opacity(0.5) hue-rotate(180deg) saturate(200%); */
+}
+
+.video-grid,
+.video-grid__local_video,
+.video-grid__remote_video,
+.notifications,
+.sidebar,
+.main__right,
+.main__chat_window,
+.main__message_container
+ {
+  text-align: center;
+  border: 1px solid black;
+  padding: 2x;
+}
+
+video {
+  /* filter: blur(4px) invert(1) opacity(0.5); */
+}
+video {
+   /* filter: hue-rotate(180deg) saturate(200%) sepia(100%); */
+ }
